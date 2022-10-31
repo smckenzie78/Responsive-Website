@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+.header{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    border-top: 4px solid crimson;
+}
+nav{
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav-links{
+    flex: 1;
+    position: relative;
+    left: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-top: .5%;
+    padding-inline: .8%;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-links ul li:hover a{
+    color: crimson;
+    text-decoration: underline;
+}
+nav img{
+    position: relative;
+    width: 300px;
+    bottom: 25%;
+}
+.home{
+    background-color: #F8F8FF;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 125px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*left side content*/
+.main{
+    flex:1;
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-right: 1px solid lightgray;
+    padding-right: 50px;
+}
+.main img{
+    width: 100%;
+    border-radius: 2%;
+}
+.main p{
+    padding: 10px 0px 52px 0px;
+}
+/*right side content*/
+.side{
+    flex:1;
+    width: 45%;
+    margin-right: 5%;
+    display:flex;
+}
+/*side content left side*/
+.side-content{
+    flex:1;
+    padding: 15px;
+    border-right: 1px solid lightgray;
+}
+.side-content img{
+    border-radius: 2%;
+    padding-top: 15px;
+    width:100%;
+}
+.side-content h4{
+    padding: 10px 0px 15px 0px;
+    border-bottom: 1px solid lightgray;
+}
+/*side content right side*/
+.side-content-2{
+    flex:1;
+    padding: 15px;
+}
+.side-content-2 img{
+    border-radius: 2%;
+    padding-top: 15px;
+    width: 100%;
+}
+.side-content-2 h4{
+    padding: 10px 0px 15px 0px;
+    border-bottom: 1px solid lightgray;
+}
+nav .fas{
+    display: none;
+}
+
+@media all and (max-width: 700px){
+    .header{
+        height: 9%;
+    }
+    nav{
+        margin-top: 5%;
+    }
+    nav img{
+        position: relative;
+        top:4%;
+    }
+    .nav-links ul li{
+        display: block;
+        padding-block: 10%;
+    }
+    .nav-links ul li a{
+        color: white;
+        margin: 30px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: crimson;
+        height: 200vh;
+        width: 200px;
+        top: 0;
+        margin-left: 100%;
+        text-align: left;
+        z-index: 2;
+    }
+    .search-bar{
+        display: none;
+    }
+    nav .fas{
+        display: block;
+        color: black;
+        font-size: 22px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    nav .fa-bars{
+        position: relative;
+        left:30%;
+        margin-top: 3%;
+    }
+}
+
