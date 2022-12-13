@@ -5,6 +5,7 @@
     margin: 0;
 }
 
+html,
 body{
     background-color: #141414;
     width: 100vw;
@@ -165,7 +166,41 @@ body{
     color: rgb(20, 20, 20);
 }
 
-type {
-    border: solid 10px this is how you do it;
+#content{
+    height: 100vh;
+    background-color: #141414;
+    border-top: 1px solid white;
+}
+
+.menu{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.menu h1{
+    color: rgb(212,175,55);
+    font-size: 80px;
+}
+
+.menu-container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-gap: 48px;
+}
+
+.mitem{
+    height: 200px;
+    background-color: #a9a9a9;
+    border-radius: 10px;
+    
+}
+
+#footer{
+    height: 10vh;
+    background-color: rgb(212,175,55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
