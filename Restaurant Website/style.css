@@ -210,20 +210,17 @@ body{
     }
 
     .item{
-        height: 300px;
+        height: 150%;
     }
 
     .menu-container{
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20%;
-        grid-gap: 48px;
+        grid-template-columns:  20% 20% 20% 20%;
+
     }
     
     .mitem{
-        height: 125px;
-        background-color: #a9a9a9;
-        border-radius: 10px;
+        height: 18vh;
+        
         
     }
 }
