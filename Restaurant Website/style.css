@@ -204,3 +204,26 @@ body{
     align-items: center;
 }
 
+@media only screen and (max-width: 1920px) {
+    .grid-container{
+        grid-template-columns: 250px 250px 250px 250px 250px;
+    }
+
+    .item{
+        height: 300px;
+    }
+
+    .menu-container{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 280px 280px 280px 280px;
+        grid-gap: 48px;
+    }
+    
+    .mitem{
+        height: 125px;
+        background-color: #a9a9a9;
+        border-radius: 10px;
+        
+    }
+}
