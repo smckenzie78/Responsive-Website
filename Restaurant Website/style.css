@@ -206,7 +206,7 @@ body{
 
 @media only screen and (max-width: 1920px) {
     .grid-container{
-        grid-template-columns: 250px 250px 250px 250px 250px;
+        grid-template-columns: 15% 15% 15% 15% 15%;
     }
 
     .item{
@@ -216,7 +216,7 @@ body{
     .menu-container{
         margin-top: 40px;
         display: grid;
-        grid-template-columns: 280px 280px 280px 280px;
+        grid-template-columns: 20% 20% 20% 20%;
         grid-gap: 48px;
     }
     
