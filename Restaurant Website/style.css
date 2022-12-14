@@ -54,8 +54,7 @@ body{
     margin-right: 100px;
     padding: 20px 30px;
     background-color: rgb(212,175,55);
-    color:rgb(20, 20, 20);
-    
+    color:rgb(20, 20, 20);  
 }
 
 .orderbutton:hover{
@@ -216,12 +215,98 @@ body{
 
     .menu-container{
         grid-template-columns:  20% 20% 20% 20%;
-
     }
     
     .mitem{
         height: 18vh;
-        
-        
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    html,
+    body{
+    background-color: #141414;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
+    }
+
+    #navlinks{
+        font-size: 16px;
+    }
+
+    .orderbutton{
+        padding: 15px 20px;  
+    }
+
+    .grid-container{
+        grid-template-columns: 18% 18% 18% 18% 18%;
+    }
+
+    .menu{
+        margin-top: 2%;
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    html,
+    body{
+    background-color: #141414;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
+    }
+
+    #navlinks{
+        padding: 0 50px;
+        font-size: 14px;
+    }
+
+    .orderbutton{
+    margin-right: 60px;
+    padding: 15px 20px;
+    background-color: rgb(212,175,55);
+    color:rgb(20, 20, 20);  
+}
+
+    .grid-container{
+        grid-template-columns: 18% 18% 18% 18% 18%;
+    }
+
+    .menu{
+        margin-top: 2%;
+        margin-left: 8%;
+    }
+
+    #bannercontent h1{
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 48px;
+        transform: scaleY(1.3);
+        letter-spacing: 3px;
+    }
+
+    #toppicks{
+        height: 45vh;
+        margin-top: 3%;
+    }
+
+    .menu h1{
+        color: rgb(212,175,55);
+        font-size: 60px;
+    }
+
+    .menu-container{
+        grid-template-columns:  25% 25% 25%;
+    }
+
+    .mitem{
+        height: 14vh;
     }
 }
