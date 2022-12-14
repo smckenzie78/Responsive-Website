@@ -7,20 +7,27 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d76b37b754.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <section id="banner">
             <div id="navbar">
+                
                 <div id="navlinks">
                     <ul>
                         <a href="index.html">BURGER<span>JOINT</span></a> 
-                        <li><a href="#content">MENU</a></li>
-                        <li><a href="" onclick="notImplemented()">LOCATIONS</a></li>
-                        <li><a href="" onclick="notImplemented()">ABOUT</a></li>
-                        <li><a href="" onclick="notImplemented()">CATERING</a></li>
+                        <span id="links">
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                            <li><a href="#content">MENU</a></li>
+                            <li><a href="" onclick="notImplemented()">LOCATIONS</a></li>
+                            <li><a href="" onclick="notImplemented()">ABOUT</a></li>
+                            <li><a href="" onclick="notImplemented()">CATERING</a></li>
+                        </span>
+                        
                     </ul> 
                 </div>
                 <a class="orderbutton" href="#">ORDER ONLINE</a>
+                <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
             </div>
             <div id="bannercontent">
                 <h1>COME SATISFY YOUR TASTEBUDS</h1>
