@@ -1,3 +1,3 @@
-#Responsive Restaurant Website
+# Responsive Restaurant Website
 
-Available here:
+Available here: https://smckenzie78.github.io/Responsive-Website/
