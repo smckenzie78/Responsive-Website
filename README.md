@@ -1,2 +1,3 @@
-https://smckenzie78.github.io/
-Portfolio website for class
+#Responsive Restaurant Website
+
+Available here:
